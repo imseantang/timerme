@@ -1,4 +1,23 @@
+<div align="center">
+
 # TimerMe - Professional Timer Tools
+
+</div>
+
+<div align="center">
+
+**🌐 Website:** [www.timerme.com](https://www.timerme.com)
+
+**⏰ Focus Better, Work Smarter**
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Built with HonoX](https://img.shields.io/badge/Built%20with-HonoX-orange)](https://github.com/honojs/honox)
+[![Deployed on Cloudflare](https://img.shields.io/badge/Deployed%20on-Cloudflare%20Pages-blue)](https://pages.cloudflare.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-Ready-3178c6)](https://www.typescriptlang.org/)
+
+---
+
+</div>
 
 A modern web application providing professional timer, stopwatch, and world clock tools for productivity and time management. TimerMe is designed to help users focus better and work smarter with intuitive timing solutions.
 
