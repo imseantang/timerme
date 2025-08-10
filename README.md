@@ -19,56 +19,92 @@
 
 </div>
 
-A modern web application providing professional timer, stopwatch, and world clock tools for productivity and time management. TimerMe is designed to help users focus better and work smarter with intuitive timing solutions.
+A modern web application providing professional **timer**, **stopwatch**, and **world clock** tools for productivity and time management. TimerMe is designed to help users focus better and work smarter with intuitive timing solutions.
 
 This website is built with [HonoX](https://github.com/honojs/honox) and features a clean, responsive design with theme customization capabilities.
 
-## Features
+## 🚀 Quick Access - Timer Tools
 
-- **Timer**: Professional countdown timers with customizable durations, perfect for Pomodoro technique and focused work sessions
-- **Stopwatch**: Precision timing with lap recording for training, sports, and time tracking
-- **World Clock**: Track time across multiple timezones simultaneously, ideal for global teams
-- **Theme Support**: Dynamic color themes (Orange, Blue, Green) with system-wide consistency
-- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
-- **PWA Ready**: Progressive Web App capabilities for native-like experience
+### ⏱️ Popular Timer Durations
 
-## Technology Stack
+| Duration | Link | Description |
+|----------|------|-------------|
+| **1 Minute Timer** | [1 minute timer](https://www.timerme.com/timer/1) | Quick 1 minute countdown for short tasks |
+| **2 Minute Timer** | [2 minute timer](https://www.timerme.com/timer/2) | 2 minute timer for brief activities |
+| **3 Minute Timer** | [3 minute timer](https://www.timerme.com/timer/3) | 3 minute countdown timer |
+| **5 Minute Timer** | [5 minute timer](https://www.timerme.com/timer/5) | 5 minute timer for short breaks |
+| **10 Minute Timer** | [10 minute timer](https://www.timerme.com/timer/10) | 10 minute countdown timer |
+| **15 Minute Timer** | [15 minute timer](https://www.timerme.com/timer/15) | 15 minute timer for quick sessions |
+| **20 Minute Timer** | [20 minute timer](https://www.timerme.com/timer/20) | 20 minute countdown timer |
+| **25 Minute Timer** | [25 minute timer](https://www.timerme.com/timer/25) | 25 minute timer - Perfect for Pomodoro technique |
+| **30 Minute Timer** | [30 minute timer](https://www.timerme.com/timer/30) | 30 minute countdown timer |
+| **45 Minute Timer** | [45 minute timer](https://www.timerme.com/timer/45) | 45 minute timer for extended sessions |
+| **60 Minute Timer** | [60 minute timer](https://www.timerme.com/timer/60) | 1 hour timer for focused work |
+| **90 Minute Timer** | [90 minute timer](https://www.timerme.com/timer/90) | 90 minute timer for long sessions |
+| **120 Minute Timer** | [120 minute timer](https://www.timerme.com/timer/120) | 2 hour timer for extended work periods |
 
-- [HonoX](https://github.com/honojs/honox): HonoX is a simple and fast supersonic meta-framework for creating full-stack websites and web APIs. It is built on top of Hono, Vite, and a UI library.
-- [Biome](https://github.com/biomejs/biome): Biome is a performant toolchain for web projects, aimed at providing developer tools to maintain the health of the project.
-- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework packed with classes for rapid UI development.
-- [TypeScript](https://www.typescriptlang.org/): Strongly typed programming language for better development experience.
-- [Cloudflare Pages](https://pages.cloudflare.com/): Fast and secure hosting platform for modern web applications.
+### 🎯 Core Tools
 
-## Getting Started
+- **[Timer App](https://www.timerme.com/timer)** - Professional countdown timers with customizable durations
+- **[Stopwatch App](https://www.timerme.com/stopwatch)** - Precision timing with lap recording
+- **[World Clock App](https://www.timerme.com/world-clock)** - Track time across multiple timezones
+- **[Custom Timer](https://www.timerme.com/timer)** - Set any duration you need
 
-This section explains how to set up your environment for local development.
+### 📱 Mobile Optimized
 
-### Installing
+All timer tools are fully responsive and work perfectly on:
+- 📱 Mobile phones
+- 📱 Tablets  
+- 💻 Desktop computers
+- 🌐 Any web browser
+
+## ✨ Features
+
+- **⏰ Professional Timer**: Countdown timers with customizable durations, perfect for Pomodoro technique and focused work sessions
+- **⏱️ Precision Stopwatch**: High-accuracy timing with lap recording for training, sports, and time tracking
+- **🌍 Smart World Clock**: Track time across multiple timezones simultaneously, ideal for global teams
+- **🎨 Dynamic Themes**: Three beautiful color themes (Orange, Blue, Green) with system-wide consistency
+- **📱 Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **🔔 Audio Notifications**: Clear alerts when timers complete
+- **💾 Persistent Settings**: Your preferences are saved across sessions
+
+## 🛠️ Technology Stack
+
+- **[HonoX](https://github.com/honojs/honox)**: Supersonic meta-framework for full-stack websites
+- **[Biome](https://github.com/biomejs/biome)**: Fast toolchain for web project health
+- **[Tailwind CSS](https://tailwindcss.com/)**: Utility-first CSS framework for rapid UI development
+- **[TypeScript](https://www.typescriptlang.org/)**: Strongly typed programming language
+- **[Cloudflare Pages](https://pages.cloudflare.com/)**: Fast and secure hosting platform
+
+## 🚀 Getting Started
+
+### Local Development
 
 ```bash
+# Install dependencies
 npm install
-```
 
-Note that this step does not necessarily have to be done with npm; you may use other package managers like bun or pnpm.
-
-## Starting the App
-
-### Local Environment
-
-```bash
+# Start development server
 npm run dev
+
+# Open in browser
 open http://localhost:5173/
 ```
 
-### Production Environment
+### Production Build
 
 ```bash
+# Build for production
 npm run build
+
+# Preview production build
 npm run preview
+
+# Deploy to Cloudflare Pages
+npm run deploy
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```
 timerme.com/
@@ -83,61 +119,88 @@ timerme.com/
 └── wrangler.toml         # Cloudflare deployment configuration
 ```
 
-## Key Features
+## 🔑 Key Features Explained
 
-### Timer Module
-- Multiple preset durations (1, 2, 3, 5, 10, 15, 20, 25, 30, 45, 60, 90, 120 minutes)
-- Custom timer input for any duration
-- SEO-optimized URL paths for specific timers (`/timer/5`, `/timer/25`, etc.)
-- Audio notifications and visual alerts
-- Fullscreen mode for distraction-free timing
+### ⏰ Timer Module
+- **Multiple preset durations**: 1, 2, 3, 5, 10, 15, 20, 25, 30, 45, 60, 90, 120 minutes
+- **Custom timer input**: Set any duration you need
+- **SEO-optimized URLs**: Each timer duration has its own path (`/timer/5`, `/timer/25`, etc.)
+- **Audio notifications**: Clear alerts when timers complete
+- **Fullscreen mode**: Distraction-free timing experience
 
-### Stopwatch Module
-- Precision timing with millisecond accuracy
-- Lap time recording and statistics
-- Fastest/slowest lap tracking
-- Export functionality for recorded times
-- Professional sports timing interface
+### ⏱️ Stopwatch Module
+- **Precision timing**: Millisecond accuracy for professional use
+- **Lap recording**: Track multiple time segments
+- **Statistics**: Fastest/slowest lap tracking
+- **Export functionality**: Save your recorded times
+- **Professional interface**: Clean design for serious timing needs
 
-### World Clock Module
-- Automatic user timezone detection
-- Multiple timezone support with flag indicators
-- Time status indicators (morning, afternoon, evening, night)
-- Customizable time formats (12/24 hour)
-- Real-time updates with configurable intervals
+### 🌍 World Clock Module
+- **Auto-detection**: Automatically detects your timezone
+- **Multiple timezones**: Track time across the globe
+- **Flag indicators**: Visual country identification
+- **Time status**: Morning, afternoon, evening, night indicators
+- **Real-time updates**: Live time synchronization
 
-### Theme System
-- Three beautiful color themes: Orange (default), Blue, and Green
-- System-wide color consistency using CSS custom properties
-- Dynamic favicon that changes with theme
-- Persistent theme selection across sessions
-- FOUC (Flash of Unstyled Content) prevention
+### 🎨 Theme System
+- **Three beautiful themes**: Orange (default), Blue, and Green
+- **System-wide consistency**: CSS custom properties for seamless theming
+- **Dynamic favicon**: Favicon changes with theme selection
+- **Persistent selection**: Your theme choice is remembered
+- **FOUC prevention**: No flash of unstyled content
 
-## Deployment
+## 🌐 SEO Optimization
 
-The application is configured for deployment on Cloudflare Pages:
+TimerMe is fully optimized for search engines:
 
-```bash
-npm run deploy
-```
+- **Comprehensive sitemap**: All timer duration pages included
+- **SEO-friendly URLs**: Descriptive paths for popular timers
+- **Structured data**: Rich snippets for better search visibility
+- **Optimized meta tags**: Clear descriptions for each page
+- **Mobile-first indexing**: Responsive design for search ranking
 
-## SEO Optimization
+## 📊 Use Cases
 
-TimerMe is optimized for search engines with:
-- Comprehensive sitemap with all timer duration pages
-- SEO-friendly URLs for popular timer durations
-- Structured data markup for better search visibility
-- Optimized meta tags and descriptions
-- Responsive design for mobile-first indexing
+### 🎯 Productivity & Focus
+- **Pomodoro Technique**: Use 25 minute timer for focused work sessions
+- **Time Blocking**: Set specific durations for different tasks
+- **Break Management**: 5-15 minute timers for short breaks
+- **Meeting Timers**: Keep meetings on schedule
 
-## Contributing
+### 🏃‍♂️ Sports & Training
+- **Workout Timing**: Track exercise intervals
+- **Sports Practice**: Time drills and practice sessions
+- **Competition Prep**: Simulate competition timing
+- **Recovery Tracking**: Monitor rest periods
 
-We welcome contributions to improve TimerMe! Please feel free to submit issues and enhancement requests.
+### 🌍 Global Business
+- **Meeting Coordination**: Schedule across timezones
+- **Client Communication**: Know when clients are available
+- **Project Deadlines**: Track time across regions
+- **Travel Planning**: Plan around destination times
 
-## License
+## 🤝 Contributing
+
+We welcome contributions to improve TimerMe! Please feel free to:
+- Submit issues and enhancement requests
+- Suggest new timer features
+- Report bugs or usability problems
+- Share feedback on the user experience
+
+## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
+## 🔗 Quick Navigation
+
+**Main Tools:**
+- [Timer](https://www.timerme.com/timer) | [Stopwatch](https://www.timerme.com/stopwatch) | [World Clock](https://www.timerme.com/world-clock)
+
+**Popular Timers:**
+- [5 minute timer](https://www.timerme.com/timer/5) | [25 minute timer](https://www.timerme.com/timer/25) | [60 minute timer](https://www.timerme.com/timer/60)
+
 **TimerMe** - Focus Better, Work Smarter ⏰
+
+*Visit [www.timerme.com](https://www.timerme.com) for the best timer experience!*
