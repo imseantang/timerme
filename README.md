@@ -19,6 +19,10 @@
 
 </div>
 
+<div align="center">
+  <a href="https://www.producthunt.com/products/timerme?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-timerme" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1004035&theme=light&t=1754915641022" alt="TimerMe - Simple&#0032;productivity&#0032;timer&#0032;that&#0032;focuses&#0032;on&#0032;doing&#0032;things&#0032;well&#0046; | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</div>
+
 A modern web application providing professional **timer**, **stopwatch**, and **world clock** tools for productivity and time management. TimerMe is designed to help users focus better and work smarter with intuitive timing solutions.
 
 This website is built with [HonoX](https://github.com/honojs/honox) and features a clean, responsive design with theme customization capabilities.
